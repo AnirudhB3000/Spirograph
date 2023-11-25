@@ -1,0 +1,151 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+
+<Folder> <!--Libraries-->
+<name>Libraries</name>
+<Placemark>
+<name>Doheny</name> <!-- Doheny -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.284125, 34.020536</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>sciEnggLib</name> <!--Science and Engineering library-->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28875897770581, 34.019626802553454</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>leaveyLib</name> <!--Leavey-->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28314028762614, 34.02190455562791</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Folder> <!--Eateries-->
+<name>Eateries</name>
+<Placemark>
+<name>RandR</name> <!-- Rock and Reillys -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28433033123912, 34.02420277647113</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>VilEat</name> <!-- Village eateries -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28512456701748, 34.025038159135896</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>StarbNeNo</name> <!-- Starbucks -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28223711421657, 34.021701886037455</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Folder> <!--Departments-->
+<name>Departments</name>
+<Placemark>
+<name>THH</name> <!-- THH -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28437550006215, 34.02212704221788</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>OHE</name> <!-- OHE -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.289100, 34.020556</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>SGM</name> <!-- SGM -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28928330863343, 34.02128591251064</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Folder> <!-- Fountains -->
+<name>Fountain</name>
+<Placemark>
+<name>RTCCFount</name> <!-- RTCC Fountain -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28652166220812, 34.020421955078646</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>TravFount</name> <!-- Traveller Fountain -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28537704239696, 34.02021362441339</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>vilFount</name> <!-- Village fountain -->
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28510686781166, 34.025225327705314</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Folder>
+<name>convexHull</name>
+  <Placemark>
+    <name>Polygon</name>
+    <Polygon>
+      <extrude>1</extrude>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+         -118.28875897770581,34.019626802553454,5
+         -118.2891,34.020556,5
+         -118.28928330863343,34.02128591251064,5
+         -118.29053023813498,34.03292084032628,5
+         -118.28223711421657,34.021701886037455,5
+         -118.284125,34.020536,5
+         -118.28537704239696,34.02021362441339,5
+         -118.28875897770581,34.019626802553454,5
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      
+    </Polygon>
+  </Placemark>
+</Folder>
+</Document>
+</kml>
